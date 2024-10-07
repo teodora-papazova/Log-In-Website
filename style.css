@@ -1,0 +1,48 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    background-image: url(./images/crocus-6039312_1920.jpg);
+}
+h1{
+    color: rgb(209, 184, 255);
+}
+header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    backdrop-filter: blur(20px);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 20px;
+}
+nav a{
+    position: relative;
+    font-weight: 500px;
+    text-decoration: none;
+    margin-left: 40px;
+    color: #ffff;
+}
+nav .btnLogin{
+    width: 100px;
+    height: 30px;
+    border-radius: 20px;
+    border-color: #ffff;
+    background-color: transparent;
+    color: #ffff;
+    margin-left: 40px;
+}
+.wrapper{
+    width: 420px;
+    background-color: white;
+}
+.wrapper h1{
+    font-size: 36px;
+    text-align: center;
+}
